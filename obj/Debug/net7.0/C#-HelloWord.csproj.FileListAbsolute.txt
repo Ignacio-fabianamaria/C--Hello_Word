@@ -1,0 +1,15 @@
+/home/faby/Documentos/Cursos-programacao/C#-Fundacao_Bradesco/Hello-Word/C#-HelloWord/bin/Debug/net7.0/C#-HelloWord
+/home/faby/Documentos/Cursos-programacao/C#-Fundacao_Bradesco/Hello-Word/C#-HelloWord/bin/Debug/net7.0/C#-HelloWord.deps.json
+/home/faby/Documentos/Cursos-programacao/C#-Fundacao_Bradesco/Hello-Word/C#-HelloWord/bin/Debug/net7.0/C#-HelloWord.runtimeconfig.json
+/home/faby/Documentos/Cursos-programacao/C#-Fundacao_Bradesco/Hello-Word/C#-HelloWord/bin/Debug/net7.0/C#-HelloWord.dll
+/home/faby/Documentos/Cursos-programacao/C#-Fundacao_Bradesco/Hello-Word/C#-HelloWord/bin/Debug/net7.0/C#-HelloWord.pdb
+/home/faby/Documentos/Cursos-programacao/C#-Fundacao_Bradesco/Hello-Word/C#-HelloWord/obj/Debug/net7.0/C#-HelloWord.csproj.AssemblyReference.cache
+/home/faby/Documentos/Cursos-programacao/C#-Fundacao_Bradesco/Hello-Word/C#-HelloWord/obj/Debug/net7.0/C#-HelloWord.GeneratedMSBuildEditorConfig.editorconfig
+/home/faby/Documentos/Cursos-programacao/C#-Fundacao_Bradesco/Hello-Word/C#-HelloWord/obj/Debug/net7.0/C#-HelloWord.AssemblyInfoInputs.cache
+/home/faby/Documentos/Cursos-programacao/C#-Fundacao_Bradesco/Hello-Word/C#-HelloWord/obj/Debug/net7.0/C#-HelloWord.AssemblyInfo.cs
+/home/faby/Documentos/Cursos-programacao/C#-Fundacao_Bradesco/Hello-Word/C#-HelloWord/obj/Debug/net7.0/C#-HelloWord.csproj.CoreCompileInputs.cache
+/home/faby/Documentos/Cursos-programacao/C#-Fundacao_Bradesco/Hello-Word/C#-HelloWord/obj/Debug/net7.0/C#-HelloWord.dll
+/home/faby/Documentos/Cursos-programacao/C#-Fundacao_Bradesco/Hello-Word/C#-HelloWord/obj/Debug/net7.0/refint/C#-HelloWord.dll
+/home/faby/Documentos/Cursos-programacao/C#-Fundacao_Bradesco/Hello-Word/C#-HelloWord/obj/Debug/net7.0/C#-HelloWord.pdb
+/home/faby/Documentos/Cursos-programacao/C#-Fundacao_Bradesco/Hello-Word/C#-HelloWord/obj/Debug/net7.0/C#-HelloWord.genruntimeconfig.cache
+/home/faby/Documentos/Cursos-programacao/C#-Fundacao_Bradesco/Hello-Word/C#-HelloWord/obj/Debug/net7.0/ref/C#-HelloWord.dll
