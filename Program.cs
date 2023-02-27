@@ -1,5 +1,5 @@
 ﻿using System;
-namespace HelloWprd
+namespace HelloWorld
 {
     class Program
     {
