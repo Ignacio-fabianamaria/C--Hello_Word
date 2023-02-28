@@ -8,17 +8,37 @@ namespace HelloWorld
            Console.WriteLine("Hello, World!"); 
            Console.WriteLine("Meu primeiro projeto com C#");
 
-           Console.WriteLine("---Valores literais---");
+           Console.WriteLine("---Declarando variáveis + valores literais---");
 
            //char
-           Console.WriteLine("char:" + " " + "abcdef");
+           char letra = 'a';
+           Console.WriteLine("char:" + " " + letra);
            //int
-           Console.WriteLine("int:" + " " + 123456);
+           int numero = 123456;
+           Console.WriteLine("int:" + " " + numero);
            //decimal
-           Console.WriteLine("decimal:" + " " + 4.5m);
+           decimal numeroDecimal = 4.5m;
+           Console.WriteLine("decimal:" + " " + numeroDecimal);
            //bool
-           Console.WriteLine("bool:" + " " + true);
-           Console.WriteLine("bool:" + " " + false);
+           bool verdadeiro = true;
+           Console.WriteLine("bool:" + " " + verdadeiro);
+           bool falso = false;
+           Console.WriteLine("bool:" + " " + falso);
+           //string
+           string palavra = "amarelo";
+           Console.WriteLine("string:" + " " + palavra);
+           //double
+           double numeroDouble1 = 3.5;
+           double numeroDouble2 = 1.5;
+           double multplicadoubles = numeroDouble1 * numeroDouble2;
+           Console.WriteLine("double" + " " + multplicadoubles);
+           
+           //var aceita qualquer dados
+           var idade =35;
+           var nome = "Fabiana";
+           Console.WriteLine("Nome:" + " " + nome + " - " + "idade:" + " " + idade);
+
+
         }
     }
 }
