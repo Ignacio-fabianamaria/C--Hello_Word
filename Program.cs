@@ -7,7 +7,6 @@ namespace HelloWorld
         {
             Console.WriteLine("Hello, World!");
             Console.WriteLine("Meu primeiro projeto com C#");
-
             Console.WriteLine("---Declarando variáveis + valores literais---");
 
             //char
@@ -34,15 +33,20 @@ namespace HelloWorld
             Console.WriteLine("double" + " " + multplicadoubles);
 
             //var aceita qualquer dados
-            var idade = 35;
+            var idade2 = 35;
             var nome = "Fabiana";
-            Console.WriteLine("Nome:" + " " + nome + " - " + "idade:" + " " + idade);
+            Console.WriteLine("Nome:" + " " + nome + " - " + "idade:" + " " + idade2);
 
             //Formatação
             double x = 30.255;
-            Console.WriteLine(x.ToString("F1"));
-            Console.WriteLine(x.ToString("C"));
-            Console.WriteLine(x.ToString("P"));
+            Console.WriteLine(x.ToString("F1"));//formatando para float
+            Console.WriteLine(x.ToString("C"));//formatando para moeda corrente
+            Console.WriteLine(x.ToString("P"));//formatando para porcentagem
+
+            // operações matemática
+            int num1 = 5, num2 = 3, res;//tipando 3variáveis ao mesmo tempo
+            res = num1 * num2;
+            Console.WriteLine("A multiplicação de " + num1 + " com " + num2 + " é: " + res);
 
 
         }
