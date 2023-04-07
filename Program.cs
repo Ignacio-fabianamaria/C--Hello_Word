@@ -5,48 +5,44 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("Meu primeiro projeto com C#");
-            Console.WriteLine("---Declarando variáveis + valores literais---");
+            Console.WriteLine("OPERADORES");
 
-            //char
-            char letra = 'a';
-            Console.WriteLine("char:" + " " + letra);
-            //int
-            int numero = 123456;
-            Console.WriteLine("int:" + " " + numero);
-            //decimal
-            decimal numeroDecimal = 4.5m;
-            Console.WriteLine("decimal:" + " " + numeroDecimal);
-            //bool
-            bool verdadeiro = true;
-            Console.WriteLine("bool:" + " " + verdadeiro);
-            bool falso = false;
-            Console.WriteLine("bool:" + " " + falso);
-            //string
-            string palavra = "amarelo";
-            Console.WriteLine("string:" + " " + palavra);
-            //double
-            double numeroDouble1 = 3.5;
-            double numeroDouble2 = 1.5;
-            double multplicadoubles = numeroDouble1 * numeroDouble2;
-            Console.WriteLine("double" + " " + multplicadoubles);
+            Console.WriteLine("Operações aritméticas:");
+            int x = 10;
+            int y = 3;
+            Console.WriteLine("a variavel x é:" + x + " e a variavel y é:" + y);
+            Console.WriteLine("Adição: " + (x + y));  // Adição: 13
+            Console.WriteLine("Subtração: " + (x - y));  // Subtração: 7
+            Console.WriteLine("Multiplicação: " + (x * y));  // Multiplicação: 30
+            Console.WriteLine("Divisão: " + (x / y));  // Divisão: 3
+            Console.WriteLine("Módulo: " + (x % y));  // Módulo: 1
 
-            //var aceita qualquer dados
-            var idade2 = 35;
-            var nome = "Fabiana";
-            Console.WriteLine("Nome:" + " " + nome + " - " + "idade:" + " " + idade2);
+            Console.WriteLine("_________________________________________");
+            Console.WriteLine("operadores relacionais:");
+            bool igual = x == y;
+            bool diferente = x != y;
+            bool maior = x > y;
+            bool menor = x < y;
+            bool maiorIgual = x >= y;
+            bool menorIgual = x <= y;
+            Console.WriteLine("a variavel x é:" + x + " e a variavel y é:" + y);
+            Console.WriteLine("x == y: " + igual);  // x == y: False
+            Console.WriteLine("x != y: " + diferente);  // x != y: True
+            Console.WriteLine("x > y: " + maior);  // x > y: True
+            Console.WriteLine("x < y: " + menor);  // x < y: False
+            Console.WriteLine("x >= y: " + maiorIgual);  // x >= y: True
+            Console.WriteLine("x <= y: " + menorIgual);  // x <= y: False
 
-            //Formatação
-            double x = 30.255;
-            Console.WriteLine(x.ToString("F1"));//formatando para float
-            Console.WriteLine(x.ToString("C"));//formatando para moeda corrente
-            Console.WriteLine(x.ToString("P"));//formatando para porcentagem
+            Console.WriteLine("_________________________________________");
 
-            // operações matemática
-            int num1 = 5, num2 = 3, res;//tipando 3variáveis ao mesmo tempo
-            res = num1 * num2;
-            Console.WriteLine("A multiplicação de " + num1 + " com " + num2 + " é: " + res);
+            int a = 10;
+            a += 5;   // a = 15
+
+
+            Console.WriteLine("Operações de atribuição:");
+            Console.WriteLine("a variavel 'a' tem o valor de 10: " ); 
+            Console.WriteLine("a += 5: " + a);  // a += 5: 15
+
 
 
         }
